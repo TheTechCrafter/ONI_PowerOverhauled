@@ -63,20 +63,18 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
-    <None Include="Animations\Wire2Core_build.bytes" />
-    <None Include="Animations\Wire2Core_anim.bytes" />
     <Compile Include="patches\RemoveAllWires.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="ModEntry\PowerOverhauledMod.cs" />
-    <Compile Include="Buildings\Wire2Core\Wire2CoreUI.cs" />
-    <Compile Include="Buildings\Wire2Core\Wire2CoreConfig.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="packages.config" />
   </ItemGroup>
-  <ItemGroup />
   <ItemGroup>
-    <Content Include="Animations\Wire2Core.png" />
+    <Folder Include="Buildings\Wire_2x\" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Animations\Wire2Core_0.png" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
